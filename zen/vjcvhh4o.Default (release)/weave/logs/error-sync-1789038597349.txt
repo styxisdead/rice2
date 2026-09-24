@@ -1,0 +1,32 @@
+1789038076771	Sync.LogManager	DEBUG	Flushing file log
+1789038076773	Sync.LogManager	DEBUG	Log cleanup threshold time: 1788174076773
+1789038076775	Sync.LogManager	DEBUG	Done deleting files.
+1789038076871	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1789038096090	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789038096095	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789038097320	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789038101131	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1789038101186	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789038102227	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789038104603	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789038105329	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789038106231	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1789038134429	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789038139478	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1789038597347	Sync.Service	DEBUG	User-Agent: Zen/1.22b (Linux x86_64) FxSync/1.157.0.20260904060728.desktop
+1789038597347	Sync.Service	INFO	Starting sync at 2026-09-10 04:09:57 in browser session D5s96G8KPvty
+1789038597347	Sync.Service	DEBUG	In sync: should login.
+1789038597347	Sync.Service	INFO	User logged in successfully - verifying login.
+1789038597347	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1789038597347	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1789038597347	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1789038597347	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1789038597348	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1789038597349	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState re-fetched credentials and is returning: error.login.reason.account
+1789038597349	Sync.Status	DEBUG	Status.login: error.login.reason.account => error.login.reason.account
+1789038597349	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1789038597349	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.account
+1789038597349	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1789038597349	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1789038597349	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.account(resource://services-sync/service.sys.mjs:1070:15) JS Stack trace: onNotify@service.sys.mjs:1070:15
+1789038597349	Sync.Service	DEBUG	Not syncing: login returned false.

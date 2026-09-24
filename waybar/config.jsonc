@@ -26,6 +26,7 @@
         "pulseaudio",
         "custom/bluetooth",
         "network",
+        "custom/power",
         "tray"
     ],
 
@@ -66,7 +67,7 @@
     "format": "󰝚  {}",
     "on-click": "~/.config/waybar/scripts/media-launcher.sh",
     "tooltip": false,
-    "max-length": 20
+    "max-length": 45
     },
 
     "clock": {
@@ -143,6 +144,12 @@
         "format-disconnected": "󰖪  Offline",
         "tooltip-format": "{ifname}\n{ipaddr}/{cidr}",
         "on-click": "nm-connection-editor"
+    },
+
+    "custom/power": {
+        "format": "󰐥",
+        "tooltip": "Power",
+        "on-click": "~/.config/hypr/scripts/power-menu.sh"
     },
 
     "tray": {

@@ -37,3 +37,7 @@ output_path = '~/.config/rofi/wallpaper.rasi'
 input_path = '~/.config/matugen/templates/eww.scss'
 output_path = '~/.config/eww/eww.scss'
 post_hook = 'eww reload'
+
+[templates.hyprlock]
+input_path = '~/.config/matugen/templates/hyprlock.conf'
+output_path = '~/.config/hypr/hyprlock.conf'

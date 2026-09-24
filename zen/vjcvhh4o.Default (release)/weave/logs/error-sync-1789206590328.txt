@@ -1,0 +1,104 @@
+1789203178123	Sync.LogManager	DEBUG	Flushing file log
+1789203178124	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/attached_clients
+1789203178125	Sync.LogManager	DEBUG	Log cleanup threshold time: 1788339178125
+1789203178143	Sync.LogManager	DEBUG	Done deleting files.
+1789203178152	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/attached_clients 200
+1789203178152	Hawk	DEBUG	(Response) /account/attached_clients: code: 200 - Status text: 
+1789203178152	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -152
+1789203178157	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1787388778017 200
+1789203178157	Hawk	DEBUG	(Response) /account/devices?filterIdleDevicesTimestamp=1787388778017: code: 200 - Status text: 
+1789203178157	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -157
+1789203178157	FirefoxAccounts	INFO	Got new device list: 284ef6ebb922612addbfb1755643524a, 31e9f3d7b9dfdf7ac3b0b365a195f1a1, 564bdbd0daaa813b595554e281d40201, 984efa294783fcb8e749e454ca711198, a7e0337ddf46a9f80fbdadd1286d55d8
+1789203178157	FirefoxAccounts	DEBUG	FxAccountsPush loading service
+1789203178157	FirefoxAccounts	DEBUG	FxAccountsPush initialized
+1789203178186	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/attached_clients 200
+1789203178186	Hawk	DEBUG	(Response) /account/attached_clients: code: 200 - Status text: 
+1789203178186	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -186
+1789203178299	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1789203178299	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1789203178299	FirefoxAccounts	TRACE	Our push subscription looks OK
+1789203178299	FirefoxAccounts	INFO	updating the cache
+1789203178730	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789203178801	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789203178880	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789203178880	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789203181762	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789203183991	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789203186763	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1789203199916	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789203199923	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789203204932	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1789203686920	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789203687083	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789203691978	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1789203694584	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789203695128	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789203699658	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1789203714969	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789203716845	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789203719999	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1789203724009	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789203729035	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1789203750659	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789203755727	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1789204193298	Sync.RemoteTabs	INFO	Generating tab list with filter
+1789204193299	Sync.Engine.Tabs	DEBUG	tabs storage db: opening database
+1789204193299	Sync.Engine.Tabs	DEBUG	tabs storage db: checking if initialization is necessary
+1789204193300	Sync.Engine.Tabs	DEBUG	tabs storage db: preparing
+1789204193300	Sync.Engine.Tabs	DEBUG	tabs storage db: finishing writable database open
+1789204193300	Sync.Engine.Tabs	DEBUG	tabs storage db: database open successful
+1789204193300	Sync.Engine.Tabs	INFO	tabs storage is opening an existing database
+1789204193300	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: GaM_lcH4XhM0
+1789204193300	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: NvNu-l59dvN-
+1789204193300	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: OUygZa50dusS
+1789204193300	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: UCPkpVq8Ti1b
+1789204193300	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: V7oiyBdzOPXr
+1789204193300	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: cgLlSL4w05sp
+1789204193300	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: qoliOa3HqU1_
+1789204193300	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: qqf9V_OF62GX
+1789204193300	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: zGyBbvVsvaho
+1789204193301	Sync.RemoteTabs	INFO	Final tab list has 0 clients with 0 tabs.
+1789204196801	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789204196808	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789204197069	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789204197503	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789204197515	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789204197518	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789204197893	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789204197911	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789204198820	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789204199227	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789204201833	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1789204213003	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789204213011	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789204214989	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789204215237	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789204218040	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1789204219015	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789204222782	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789204224083	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1789204225175	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789204230196	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1789205168410	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789205173495	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1789205952659	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789205957714	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1789205961121	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789205966191	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1789206590326	Sync.Service	DEBUG	User-Agent: Zen/1.22b (Linux x86_64) FxSync/1.157.0.20260904060728.desktop
+1789206590326	Sync.Service	INFO	Starting sync at 2026-09-12 02:49:50 in browser session Ro9Da5qVFCe9
+1789206590326	Sync.Service	DEBUG	In sync: should login.
+1789206590326	Sync.Service	INFO	User logged in successfully - verifying login.
+1789206590326	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1789206590326	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1789206590326	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1789206590326	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1789206590327	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1789206590327	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState re-fetched credentials and is returning: error.login.reason.account
+1789206590327	Sync.Status	DEBUG	Status.login: error.login.reason.account => error.login.reason.account
+1789206590327	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1789206590327	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.account
+1789206590327	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1789206590327	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1789206590328	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.account(resource://services-sync/service.sys.mjs:1070:15) JS Stack trace: onNotify@service.sys.mjs:1070:15
+1789206590328	Sync.Service	DEBUG	Not syncing: login returned false.

@@ -1,16 +1,16 @@
-$background: #121318;
-$foreground: #e3e1e9;
-$accent: #b5c4ff;
-$accent2: #c1c5dd;
-$surface: #121318;
-$surface_variant: #45464f;
+$background: #131318;
+$foreground: #e5e1e9;
+$accent: #c5c0ff;
+$accent2: #c7c4dc;
+$surface: #131318;
+$surface_variant: #47464f;
 
 * {
     all: unset;
 }
 
 .media-popup {
-    background: rgba(18, 19, 24, 0.72);
+    background: rgba(19, 19, 24, 0.72);
     color: $foreground;
     border: 1px solid $accent;
     border-radius: 16px;
@@ -33,7 +33,7 @@ $surface_variant: #45464f;
 }
 
 .media-button {
-    background: rgba(69, 70, 79, 0.55);
+    background: rgba(71, 70, 79, 0.55);
     color: $foreground;
     border: 1px solid $accent;
     border-radius: 10px;

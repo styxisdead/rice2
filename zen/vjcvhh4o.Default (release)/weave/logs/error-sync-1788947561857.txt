@@ -1,0 +1,21 @@
+1788946872528	Sync.LogManager	DEBUG	Flushing file log
+1788946872533	Sync.LogManager	DEBUG	Log cleanup threshold time: 1788082872533
+1788946872573	Sync.LogManager	DEBUG	Done deleting files.
+1788946872644	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1788947561855	Sync.Service	DEBUG	User-Agent: Zen/1.22b (Linux x86_64) FxSync/1.157.0.20260904060728.desktop
+1788947561855	Sync.Service	INFO	Starting sync at 2026-09-09 02:52:41 in browser session am29kPNuUUq5
+1788947561855	Sync.Service	DEBUG	In sync: should login.
+1788947561855	Sync.Service	INFO	User logged in successfully - verifying login.
+1788947561855	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1788947561855	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1788947561855	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1788947561855	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1788947561856	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1788947561856	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState re-fetched credentials and is returning: error.login.reason.account
+1788947561856	Sync.Status	DEBUG	Status.login: error.login.reason.account => error.login.reason.account
+1788947561857	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1788947561857	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.account
+1788947561857	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1788947561857	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1788947561857	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.account(resource://services-sync/service.sys.mjs:1070:15) JS Stack trace: onNotify@service.sys.mjs:1070:15
+1788947561857	Sync.Service	DEBUG	Not syncing: login returned false.

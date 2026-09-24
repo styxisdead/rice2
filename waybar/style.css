@@ -25,6 +25,13 @@ window#waybar {
 #memory,
 #pulseaudio,
 #network,
+#custom-power {
+    color: @foreground;
+    background: transparent;
+    border: none;
+    padding: 0 10px;
+    margin: 0;
+}
 #tray {
     background: transparent;
     border: none;
@@ -146,6 +153,9 @@ window#waybar {
 #network:hover,
 #clock:hover {
     background: alpha(@accent, 0.20);
+}
+#custom-power:hover {
+    color: @accent;
 }
 
 /* =========================

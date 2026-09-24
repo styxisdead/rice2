@@ -1,0 +1,24 @@
+1789124222528	Sync.LogManager	DEBUG	Flushing file log
+1789124222541	Sync.LogManager	DEBUG	Log cleanup threshold time: 1788260222541
+1789124222548	Sync.LogManager	DEBUG	Done deleting files.
+1789124250952	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789124251074	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789124251187	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789124251188	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789125141746	Sync.Service	DEBUG	User-Agent: Zen/1.22b (Linux x86_64) FxSync/1.157.0.20260904060728.desktop
+1789125141746	Sync.Service	INFO	Starting sync at 2026-09-11 04:12:21 in browser session 37YjYhGUfHlX
+1789125141746	Sync.Service	DEBUG	In sync: should login.
+1789125141746	Sync.Service	INFO	User logged in successfully - verifying login.
+1789125141746	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1789125141746	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1789125141746	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1789125141746	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1789125141747	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1789125141747	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState re-fetched credentials and is returning: error.login.reason.account
+1789125141747	Sync.Status	DEBUG	Status.login: error.login.reason.account => error.login.reason.account
+1789125141747	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1789125141747	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.account
+1789125141748	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1789125141748	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1789125141748	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.account(resource://services-sync/service.sys.mjs:1070:15) JS Stack trace: onNotify@service.sys.mjs:1070:15
+1789125141748	Sync.Service	DEBUG	Not syncing: login returned false.

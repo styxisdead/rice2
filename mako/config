@@ -1,12 +1,12 @@
 font=Sans 11
 
-background-color=#121318aa
-text-color=#e3e1e9ff
-border-color=#b5c4ffff
-progress-color=over #b5c4ffff
+background-color=#131318aa
+text-color=#e5e1e9ff
+border-color=#c5c0ffff
+progress-color=over #c5c0ffff
 
 border-size=2
-border-radius=0
+border-radius=12
 
 width=380
 height=120
@@ -29,11 +29,11 @@ group-by=app-name
 format=<b>%s</b>\n%b
 
 [urgency=low]
-border-color=#c1c5ddff
+border-color=#c7c4dcff
 default-timeout=3000
 
 [urgency=normal]
-border-color=#b5c4ffff
+border-color=#c5c0ffff
 default-timeout=5000
 
 [urgency=critical]
